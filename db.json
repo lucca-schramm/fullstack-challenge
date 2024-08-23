@@ -4,56 +4,8 @@
       "id": "1",
       "email": "usuario@example.com",
       "senha": "senha123"
-    },
-    {
-      "id": 1389965862660,
-      "emails": "luccascho@gmail.com",
-      "senha": "Lucc@123",
-      "contacts": [],
-      "createdAt": "2024-08-23T00:20:57.199Z"
-    },
-    {
-      "id": "8d03",
-      "nome": "Lucca Schramm Oliveira Farias",
-      "email": "luccascho@gmail.com",
-      "telefone": "71996038214"
-    },
-    {
-      "id": "1ac9",
-      "nome": "Lucca Schramm Oliveira Farias",
-      "email": "luccascho@gmail.com",
-      "telefone": "71996038214"
-    },
-    {
-      "id": "46e0",
-      "nome": "Lucca Schramm Oliveira Farias",
-      "email": "luccascho@gmail.com",
-      "telefone": "71996038214"
     }
   ],
   "contato": [
-    {
-      "id": "f46f",
-      "name": "Lucca",
-      "emails": "luccascho@gmail.com"
-    },
-    {
-      "id": "3b63",
-      "nome": "Lucca Schramm Oliveira Farias",
-      "email": "luccascho@gmail.com",
-      "telefone": "71996038214"
-    },
-    {
-      "id": "35e8",
-      "nome": "Lucca Schramm Oliveira Farias",
-      "email": "luccascho@gmail.com",
-      "telefone": "71996038214"
-    },
-    {
-      "id": "61ef",
-      "nome": "Lucca Schramm Oliveira Farias",
-      "email": "luccascho@gmail.com",
-      "telefone": "71996038214"
-    }
   ]
 }
