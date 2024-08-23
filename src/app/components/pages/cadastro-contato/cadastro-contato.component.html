@@ -1,0 +1,32 @@
+<div class="caixa">
+    <div class="caixa-cadastro">
+      <h2 class="titulo">Cadastrar Contato</h2>
+      <form class="form" (ngSubmit)="cadastrarContato()" [formGroup]="formContato">
+        <label class="form-label" for="nome">
+          <i class="far fa-user icon-modify"></i>
+          <input type="text" id="nome" placeholder="Nome Completo" formControlName="nome">
+        </label>
+        <span *ngIf="formContato.get('nome')?.errors?.['required'] && submetido">
+          Campo obrigatório
+        </span>
+        <label class="form-label" for="email">
+          <i class="far fa-envelope icon-modify"></i>
+          <input type="text" id="email" placeholder="E-mail" formControlName="email">
+        </label>
+        <span *ngIf="formContato.get('email')?.errors?.['required'] && submetido">
+          Campo obrigatório
+        </span>
+        <label class="form-label" for="telefone">
+          <i class="fas fa-phone icon-modify"></i>
+          <input type="text" id="telefone" placeholder="Telefone" formControlName="telefone">
+        </label>
+        <span *ngIf="formContato.get('telefone')?.errors?.['required'] && submetido">
+          Campo obrigatório
+        </span>
+        <span>{{mensagemErro}}</span>
+        <br>
+        <button type="submit" class="botao-form">Cadastrar</button>
+      </form>
+    </div>
+  </div>
+  

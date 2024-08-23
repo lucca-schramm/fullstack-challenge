@@ -1,0 +1,25 @@
+<div *ngIf="alert" class="alert alert-success">
+  {{ mensagem }}
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Email</th>
+      <th>Telefone</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let contato of contatos">
+      <td>{{ contato.name }}</td>
+      <td>{{ contato.emails }}</td>
+      <td>{{ contato.telefone }}</td>
+      <td>
+        <button (click)="modalEditar(contato)">Editar</button>
+        <button (click)="modalDeletar(contato.id)">Deletar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
